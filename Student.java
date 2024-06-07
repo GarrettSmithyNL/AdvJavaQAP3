@@ -9,4 +9,22 @@ class Student extends Person {
     myIdNum = idNum;
     myGPA = gpa;
   }
+
+  // Getters
+  public String getIdNum() {
+    return myIdNum;
+  }
+
+  public double getGPA() {
+    return myGPA;
+  }
+  // Setters
+  public void setIdNum(String myIdNum) {
+    this.myIdNum = myIdNum;
+  }
+
+  public void setGPA(double myGPA) {
+    this.myGPA = myGPA;
+  }
+
 }
