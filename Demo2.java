@@ -1,13 +1,17 @@
 public class Demo2 {
   public static void main(String[] args) {
+    // Test the Shape class
     Shape S = new Shape("Red", true);
 
+    // Test the Circle class
     Circle C = new Circle(5.0);
     Circle C1 = new Circle(5.0,"blue",true);
     
+    // Test the Rectangle class
     Rectangle R = new Rectangle(2.0,3.0);
     Rectangle R1 = new Rectangle(2.0,3.0,"green",false);
     
+    // Test the Square class
     Square Sq = new Square(4.0);
     Square Sq1 = new Square(4.0,"yellow",true);
     

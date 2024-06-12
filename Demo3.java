@@ -59,9 +59,5 @@ public class Demo3 {
     // Test MovablePoint move()
     MP1.move();
     System.out.println(MP1);
-    
-
-
-
   }
 }
